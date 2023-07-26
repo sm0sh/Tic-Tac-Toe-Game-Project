@@ -1,5 +1,8 @@
 # Tic-Tac-Toe-Game
+
+
 Requirements  Fulfilled:
+
 1. Game Board:
 ○ Implemented a 3x3 grid to represent the Tic-Tac-Toe game board.
 ○ Used appropriate data structure (arrays) to store and update the
@@ -26,3 +29,18 @@ board.
 ○ If players choose to play again, reseted the board and allow them to continue
 playing.
 ○ If players choose to exit, terminated the game.
+
+
+Interface Provided:
+
+The program provides an interactive interface in the terminal. Upon running the code, the
+players are able to take turns and play the Tic-Tac-Toe game.
+
+1. Displays the initial game board.
+2. Prompts Player 1 to enter their move (row and column numbers).
+3. Updates the board with Player 1's move and displays the updated board.
+4. Checks if Player 1 has won or if the game has resulted in a draw.
+5. If the game has a winner or ended in a draw, displays the corresponding message and
+provides an option to play again or exit.
+6. If the game is not over, continues to the next turn with Player 2.
+7. Repeats steps 2-6 until the game is won, ends in a draw, or players choose to exit.
